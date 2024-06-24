@@ -1,3 +1,8 @@
+:root {
+    --hero-height: 0px;
+    --hero-height: 0px;
+}
+
 body {
     background: black;
     color: white;
@@ -108,7 +113,7 @@ body {
     color: while;
     padding: 0;
     p{
-        margin: 25px 0 10px 12px;
+        margin: 25px 0 10px 11px;
         font-size: 20px;
         font-weight: bold;
     }
@@ -118,89 +123,8 @@ body {
     border: 3px solid white;
     .col{
         border: 3px solid white;
-        margin: 0 10px;
-    }
-    #releaseOne {
-        position: relative;
-        width: 100%;
-        padding-top: 100px;
-        background: url("./img/show11.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
-    #releaseOne .content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
- }  */
-
- #streamingOptions{
-    border: 3px solid white;
-    height: 100px;
-    .col{
-        border: 3px solid white;
-        margin: 0 10px;
-        height: 100vh - 650px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    #releaseOne{
-        background: url("./img/show11.jpg");
-    }
-    #releaseTwo{
-        background: url("./img/show41.jpg");
-    }
-    #releaseThree{
-        background: url("./img/show37.jpg");
-    }
-    #releaseFour{
-        background: url("./img/show3.jpg");
-    }
-    #releaseFive{
-        background: url("./img/show39.jpg");
-    }
-    #releaseSix{
-        background: url("./img/show19.jpg");
-    }
- }
-
- #streamingOptions2{
-    border: 3px solid white;
-    padding-top:10px;
-    .col{
-        padding-top:10px;
-        color: 3px solid white;
-        height: 100px;
-    }
- }
-
- 
-
-/* #screenSize {
-    display: none;
- } */
- 
- 
- /* @media only screen and (max-width: 650px), (min-width: 1400px) {
-    #screenSize {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        text-align: center;
-    }
- 
- 
-    .container-fluid {
-        display: none;
     }
  } */
-
 
   @media screen and (max-width: 767px) {
     #nav{
@@ -215,7 +139,6 @@ body {
             padding: 10px 0;
             text-align: center;
         }
-
     }
 
     #ratingCol{
