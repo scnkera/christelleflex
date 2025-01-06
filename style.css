@@ -121,6 +121,10 @@ body {
     }
  } */
 
+#streamingOptions img:hover {
+    opacity: 75%
+}
+
   @media screen and (max-width: 767px) {
     #nav{
         text-align: center;
